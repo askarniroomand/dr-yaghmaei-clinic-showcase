@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>کلینیک قلب دکتر بهنام یغمایی | سامانه مدیریت مطب · دموی UI · سورس خصوصی</title>
+  <meta name="description" content="سامانه جامع مدیریت کلینیک قلب — وب‌سایت عمومی، پنل ادمین، نوبت‌دهی شمسی، مالی، صف انتظار، API با JWT. سورس خصوصی؛ فقط دموی UI عمومی." />
+  <meta name="theme-color" content="#0c0505" />
+  <meta property="og:title" content="کلینیک قلب دکتر بهنام یغمایی — سامانه مدیریت مطب" />
+  <meta property="og:description" content="مدیریت بیماران، نوبت‌دهی، مالی، صف انتظار، PWA و REST API · سورس قفل‌شده" />
+  <meta property="og:image" content="assets/logo.png" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/site.css" />
+</head>
+<body>
+  <div class="bg-mesh" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <div class="wrap nav-inner">
+      <a href="#" class="logo">
+        <img src="assets/logo.png" alt="کلینیک قلب" width="40" height="40" />
+        دکتر یغمایی
+        <span>Showcase</span>
+      </a>
+      <nav class="nav-links" aria-label="منوی اصلی">
+        <a href="#features">قابلیت‌ها</a>
+        <a href="#security">قفل سورس</a>
+        <a href="#stack">معماری</a>
+        <a href="demo/" class="btn btn-ghost">دموی UI</a>
+        <a href="#contact" class="btn btn-primary">تماس</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="reveal">
+          <div class="pill">
+            <span class="pill-dot"></span>
+            سورس خصوصی · فقط دمو و معرفی عمومی
+          </div>
+          <h1>
+            سامانه مدیریت
+            <span class="grad">کلینیک قلب</span>
+          </h1>
+          <p class="lead">
+            پلتفرم جامع برای <strong style="color:#fff;font-weight:600">مطب و کلینیک قلب و عروق</strong> —
+            وب‌سایت عمومی RTL، نوبت‌دهی شمسی، پرونده بیمار، مالی، صف انتظار، پنل ادمین و REST API.
+          </p>
+          <div class="cta">
+            <a class="btn btn-primary btn-lg" href="demo/">▶ مشاهده دموی دقیق UI</a>
+            <a class="btn btn-ghost btn-lg" href="#security">🔒 سیاست قفل سورس</a>
+          </div>
+          <div class="trust-row">
+            <div class="trust-item"><span class="ico">📱</span><span><strong>Responsive</strong> · موبایل‌فرست</span></div>
+            <div class="trust-item"><span class="ico">⚡</span><span><strong>PWA</strong> · نصب روی گوشی</span></div>
+            <div class="trust-item"><span class="ico">🫀</span><span><strong>Medical UI</strong> · RTL فارسی</span></div>
+          </div>
+        </div>
+
+        <div class="reveal" style="transition-delay:0.12s">
+          <div class="device">
+            <div class="device-bar">
+              <span class="dot r"></span>
+              <span class="dot y"></span>
+              <span class="dot g"></span>
+              <span class="title">dryaghmaei.ir · UI Preview</span>
+            </div>
+            <div class="device-screen">
+              <div class="mock-icon" aria-hidden="true">❤</div>
+              <div class="float-card a">
+                <div class="label">نوبت امروز</div>
+                <div class="val">۲۴ بیمار</div>
+              </div>
+              <div class="float-card b">
+                <div class="label">صف انتظار</div>
+                <div class="val">شماره ۰۷</div>
+              </div>
+              <div class="mock-caption">دموی عمومی · ظاهر دقیق · سورس قفل</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <div class="stats-bar reveal">
+          <div class="stat-cell"><div class="n">۱۵+</div><div class="l">ماژول محصولی</div></div>
+          <div class="stat-cell"><div class="n">۳</div><div class="l">پنل (عمومی · بیمار · ادمین)</div></div>
+          <div class="stat-cell"><div class="n">JWT</div><div class="l">REST API امن</div></div>
+          <div class="stat-cell"><div class="n">۱۰۰٪</div><div class="l">سورس قفل‌شده</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="features">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">قابلیت‌های نسخه واقعی</span>
+          <h2>همه‌چیز برای مدیریت یک کلینیک قلب</h2>
+          <p>از رزرو آنلاین تا پرونده پزشکی، مالی و صف انتظار — یکپارچه و فارسی</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <div class="ico">🌐</div>
+            <h3>وب‌سایت عمومی</h3>
+            <p>خانه، درباره، خدمات، وبلاگ، تماس، نوبت آنلاین — RTL، Dark Mode، سئو و PWA</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="ico">📅</div>
+            <h3>نوبت‌دهی شمسی</h3>
+            <p>تقویم جلالی، اسلات خودکار، شماره صف، پرداخت و وضعیت‌های نوبت</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="ico">📁</div>
+            <h3>پرونده بیمار</h3>
+            <p>آرشیو ویزیت، دارو، مدارک، علائم حیاتی و تاریخچه کامل</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="ico">💰</div>
+            <h3>مالی و بیمه</h3>
+            <p>فاکتور، پرداخت، گزارش، خروجی Excel/PDF و چاپ بیمه</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="ico">📋</div>
+            <h3>صف انتظار زنده</h3>
+            <p>مدیریت صف مطب + نمایشگر سالن انتظار برای بیماران</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="ico">🔐</div>
+            <h3>امنیت سازمانی</h3>
+            <p>نقش‌ها، CSRF، Rate Limit، 2FA، JWT، Security Headers و Audit Log</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="security">
+      <div class="wrap">
+        <div class="lock-panel reveal">
+          <div class="section-head" style="margin-bottom:0;text-align:right;max-width:none">
+            <span class="eyebrow">سیاست قفل سورس</span>
+            <h2>این ریپو فقط دمو و معرفی است</h2>
+            <p style="margin-top:0.5rem">سورس کامل PHP/MVC در ریپوی خصوصی نگه‌داری می‌شود و منتشر نمی‌شود.</p>
+          </div>
+          <div class="lock-grid">
+            <div class="lock-box ok">
+              <h4>✅ در این ریپوی عمومی</h4>
+              <ul>
+                <li>لندینگ محصول (GitHub Pages)</li>
+                <li>دموی استاتیک و ریسپانسیو UI</li>
+                <li>CSS تم پزشکی و دارایی‌های دمو</li>
+                <li>مستندات سطح بالا و LICENSE</li>
+              </ul>
+            </div>
+            <div class="lock-box no">
+              <h4>🔒 منتشر نشده (خصوصی)</h4>
+              <ul>
+                <li>کد PHP · Controllers · Models · Services</li>
+                <li>Migration دیتابیس · Seed · .env</li>
+                <li>منطق نوبت، مالی، SMS و API واقعی</li>
+                <li>پنل ادمین عملیاتی و credentialها</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="stack">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">معماری</span>
+          <h2>نمای سطح بالا (بدون جزئیات پیاده‌سازی)</h2>
+          <p>جزئیات سورس عمداً منتشر نمی‌شود</p>
+        </div>
+        <div class="arch reveal">
+   ┌─────────────────────────────────────────────────────┐
+   │     Public Website  ·  RTL Medical Clinic UI        │
+   │  Home · Services · Blog · Appointment · Waiting     │
+   └──────────────────────────┬──────────────────────────┘
+                              │
+   ┌──────────────────────────▼──────────────────────────┐
+   │  Patient Portal  ·  Admin Panel  ·  Developer Ops   │
+   └──────────────────────────┬──────────────────────────┘
+                              │
+   ┌──────────────────────────▼──────────────────────────┐
+   │   PHP 8.3 Native MVC  ·  MySQL  ·  JWT REST API     │
+   │   Jalali · Queue · Finance · SMS · Backup · PWA     │
+   └─────────────────────────────────────────────────────┘
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="contact">
+      <div class="wrap">
+        <div class="contact-card reveal">
+          <div>
+            <h2>درخواست نسخه کامل / استقرار</h2>
+            <p>
+              برای لایسنس، استقرار روی هاست/cPanel، سفارشی‌سازی برند کلینیک
+              یا دموی عملیاتی با بک‌اند، مستقیم پیام دهید.
+            </p>
+            <div class="cta" style="margin-bottom:0">
+              <a class="btn btn-primary btn-lg" href="demo/">▶ باز کردن دموی UI</a>
+              <a class="btn btn-ghost btn-lg" href="https://github.com/askarniroomand" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+          <div class="contact-meta">
+            <div>توسعه‌دهنده: <strong>عسکر نیرومند</strong></div>
+            <div>تلفن: <strong dir="ltr">09331351329</strong></div>
+            <div>محصول: <strong>کلینیک قلب دکتر بهنام یغمایی</strong></div>
+            <div>حالت: <strong>سورس قفل · دمو عمومی</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>
+        © ۱۴۰۵ · ساخته‌شده برای کلینیک قلب دکتر بهنام یغمایی ·
+        <a href="LICENSE">Proprietary</a> ·
+        <a href="SECURITY.md">Security</a>
+      </p>
+      <p style="margin-top:0.5rem">🔒 Source private · ✅ Demo public · <a href="https://github.com/askarniroomand">@askarniroomand</a></p>
+    </div>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY > 12), { passive: true });
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => { if (e.isIntersecting) e.target.classList.add('in'); });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+  </script>
+</body>
+</html>
