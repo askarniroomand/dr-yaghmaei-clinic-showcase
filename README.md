@@ -91,7 +91,7 @@
 
 ```text
 Public:  dr-yaghmaei-clinic-showcase   →  demo + landing
-Private: full application source       →  🔒 not public
+Private: dr-yaghmaei-clinic            →  full application 🔒
 ```
 
 ---
