@@ -1,25 +1,23 @@
-# Security Policy
+# Security Policy (Showcase repositories)
 
-## Source code protection
+## Scope
 
-The production application source code is **not** published in this repository.
+These repositories contain **static demos and marketing pages only**.  
+They must never include:
 
-- **Public repository (`dr-yaghmaei-clinic-showcase`):** marketing site, responsive UI demo, high-level docs only.
-- **Private repository:** full PHP MVC application, database schema, admin/patient panels, JWT API, integrations, and credentials.
+- Production credentials
+- Real patient / customer / inventory data
+- Private API keys
+- Private source dumps
 
-If you find any accidental leak of source files, credentials, database dumps, or deploy packages in the public repository, please contact the maintainer immediately so they can be removed.
+## Reporting
 
-## Supported contact
+If you find a leaked secret or personal data in a showcase repo, contact immediately:
 
-- Developer: Askar Niroomand (عسکر نیرومند)
-- Phone: 09331351329
-- GitHub: [@askarniroomand](https://github.com/askarniroomand)
+- Telegram: [@MRROBOT_DT](https://t.me/MRROBOT_DT)
 
-## What not to report here
+Do not open a public issue that amplifies the leak.
 
-- Requests for the private source code (not available publicly)
-- Feature requests without deployment context (prefer direct contact)
+## Maintainer response
 
-## Responsible disclosure
-
-If you discover a vulnerability in a **deployed** instance of the application that you are authorized to use, contact the developer privately. Do not open a public issue with exploit details.
+Secrets will be rotated and history cleaned when necessary.

@@ -1,30 +1,24 @@
-PROPRIETARY SOFTWARE LICENSE
-Copyright (c) 2026 Askar Niroomand (عسکر نیرومند)
-Target product: کلینیک قلب دکتر بهنام یغمایی (Dr. Behnama Yaghmaei Cardiology Clinic)
+Proprietary Showcase License
 
-All rights reserved.
+Copyright (c) 2026 Askar Niroomand. All rights reserved.
 
-This repository is a PUBLIC SHOWCASE only. It contains marketing materials,
-documentation summaries, and interactive demos of the product appearance.
+This repository contains public marketing materials and static user-interface
+demonstrations for a proprietary software product.
 
-NO SOURCE CODE of the full application is published in this repository.
+Permission is granted to view the materials in this repository and to access
+the published GitHub Pages demo for evaluation and portfolio purposes.
 
-You may:
-  - View this repository and the demo materials for evaluation purposes
-  - Share links to this repository for demonstration
+You may NOT, without prior written permission:
 
-You may NOT:
-  - Copy, reverse-engineer, or reimplement the software from these materials
-  - Claim ownership of the product, branding, or design
-  - Use the materials for commercial products without written permission
-  - Redistribute demo assets as if they were your own product
+1. Copy, modify, or redistribute the design system, assets, or demo code for
+   commercial competing products
+2. Remove copyright or proprietary notices
+3. Claim authorship of the product or UI
+4. Use client names, trademarks, or branding in a misleading way
+5. Attempt to obtain or publish the private production source code associated
+   with this product
 
-The complete source code is maintained in a PRIVATE repository and is not
-available under any open-source license.
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 
-For licensing, purchase, deployment, or demo access of the full application:
-  Developer: عسکر نیرومند
-  Phone: 09331351329
-  GitHub: https://github.com/askarniroomand
-
-THE SOFTWARE AND MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+For commercial licensing, custom development, or private demos, contact:
+https://t.me/MRROBOT_DT
